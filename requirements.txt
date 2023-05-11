@@ -82,3 +82,10 @@ function piramida(n) {
 }
 console.log(piramida(7));
 console.log(piramida(4));
+
+3
+const iniFungsi = (a, b) => {
+console.log(a % b);
+}
+
+iniFungsi(5, 2);
