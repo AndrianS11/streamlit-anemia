@@ -58,3 +58,27 @@ function warnet(arr) {
   ];
   var hasil = warnet(listSewa);
   console.log(hasil);
+
+sgtg
+
+function piramida(n) {
+    if (n % 2 == 0) {
+        for (let i = 1; i <= n; i++) {
+            let row = '';
+            for (let j = 1; j <= i; j++) {
+                row += '*';
+            }
+            console.log(row);
+        }
+    } else {
+        for (let i = n; i >= 1; i--) {
+            let row = '';
+            for (let j = 1; j <= i; j++) {
+                row += '*';
+            }
+            console.log(row);
+        }
+    }
+}
+console.log(piramida(7));
+console.log(piramida(4));
